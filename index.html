@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SCIENCEe — Circulatory & Respiratory Systems</title>
+  <!-- Add your CSS or Tailwind link here -->
+  <!-- <link href="styles.css" rel="stylesheet"> -->
+</head>
+<body>
+  <!-- SITE WRAPPER -->
+  <div id="app">
+
+    <!-- HEADER / NAV -->
+    <header id="site-header" class="site-header" role="banner">
+      <div class="container header-inner">
+        <a href="/" class="logo" aria-label="SCIENCEe home">
+          <!-- logo / mark -->
+          <div class="logo-mark">S</div>
+          <div class="logo-text">
+            <h1 class="site-title">SCIENCEe</h1>
+            <p class="site-sub">Circulatory & Respiratory Systems</p>
+          </div>
+        </a>
+
+        <!-- optional nav -->
+        <nav id="main-nav" role="navigation" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#circulatory">Circulatory</a></li>
+            <li><a href="#respiratory">Respiratory</a></li>
+            <li><a href="#pulses">Pulse Points</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO / INTRO -->
+    <section id="hero" class="hero" role="region" aria-label="Introduction">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h2>How your body moves oxygen, nutrients, and life</h2>
+          <p>Discover the heart, blood vessels, lungs, and how they work together — with images, facts, and a quick quiz.</p>
+          <!-- CTA buttons if desired -->
+          <p class="hero-actions">
+            <a class="btn" href="#circulatory">Explore Circulatory</a>
+            <a class="btn btn-ghost" href="#respiratory">Explore Respiratory</a>
+          </p>
+        </div>
+
+        <div class="hero-media">
+          <!-- placeholder image -->
+          <img src="images/hero-heart-lungs.jpg" alt="Illustration of human heart and lungs">
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main id="main" role="main">
+
+      <!-- CIRCULATORY SECTION -->
+      <section id="circulatory" class="panel circulatory" role="region" aria-labelledby="circulatory-heading">
+        <div class="container">
+          <header>
+            <h3 id="circulatory-heading">Circulatory System</h3>
+            <p class="lede">Transports blood, nutrients, oxygen, and removes waste across the body.</p>
+          </header>
+
+          <div class="panel-grid">
+            <article class="panel-text">
+              <h4>Key parts</h4>
+              <ul>
+                <li><strong>Heart</strong> — pump with 4 chambers (right/left atria, right/left ventricles).</li>
+                <li><strong>Arteries</strong> — carry blood away from the heart.</li>
+                <li><strong>Veins</strong> — carry blood back to the heart.</li>
+                <li><strong>Capillaries</strong> — tiny vessels for exchange.</li>
+              </ul>
+
+              <div class="quick-cards">
+                <div class="card">
+                  <h5>Pulse points</h5>
+                  <ol>
+                    <li>Radial (wrist)</li>
+                    <li>Carotid (neck)</li>
+                    <li>Brachial (inner elbow)</li>
+                  </ol>
+                </div>
+
+                <div class="card">
+                  <h5>Fun fact</h5>
+                  <p>Your heart beats about 100,000 times per day.</p>
+                </div>
+              </div>
+            </article>
+
+            <aside class="panel-media" aria-hidden="false">
+              <img src="images/heart.jpg" alt="Anatomical illustration of the human heart">
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESPIRATORY SECTION -->
+      <section id="respiratory" class="panel respiratory" role="region" aria-labelledby="respiratory-heading">
+        <div class="container">
+          <header>
+            <h3 id="respiratory-heading">Respiratory System</h3>
+            <p class="lede">Intakes oxygen, expels carbon dioxide, and enables gas exchange in the lungs.</p>
+          </header>
+
+          <div class="panel-grid reverse">
+            <aside class="panel-media">
+              <img src="images/lungs.jpg" alt="Illustration of lungs and airway">
+            </aside>
+
+            <article class="panel-text">
+              <h4>Key parts</h4>
+              <ul>
+                <li><strong>Nose / Nasal cavity</strong></li>
+                <li><strong>Pharynx & Larynx</strong></li>
+                <li><strong>Trachea & Bronchi</strong></li>
+                <li><strong>Alveoli</strong> — site of gas exchange</li>
+                <li><strong>Diaphragm</strong> — main breathing muscle</li>
+              </ul>
+
+              <div class="quick-cards">
+                <div class="card">
+                  <h5>How gas exchange works</h5>
+                  <p>Oxygen passes from alveoli into blood capillaries; CO₂ moves from blood to alveoli to be exhaled.</p>
+                </div>
+
+                <div class="card">
+                  <h5>Did you know?</h5>
+                  <p>Adult lungs can hold several liters of air depending on the person and activity.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PULSE POINTS / QUICK FACTS -->
+      <section id="pulses" class="pulses" role="region" aria-labelledby="pulses-heading">
+        <div class="container">
+          <h3 id="pulses-heading">Pulse Points & Quick Facts</h3>
+
+          <div class="grid-cards">
+            <div class="fact-card">
+              <h4>Radial pulse</h4>
+              <p>Located at the wrist — easy to check heart rate.</p>
+            </div>
+            <div class="fact-card">
+              <h4>Carotid pulse</h4>
+              <p>At the neck — used in emergencies to check circulation.</p>
+            </div>
+            <div class="fact-card">
+              <h4>Normal adult resting heart rate</h4>
+              <p>About 60–100 beats per minute for most adults.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUIZ / INTERACTIVE -->
+      <section id="quiz" class="quiz" role="region" aria-labelledby="quiz-heading">
+        <div class="container">
+          <h3 id="quiz-heading">Quick Quiz</h3>
+          <p class="lede">Test your knowledge — simple multiple choice.</p>
+
+          <!-- Simple accessible quiz form skeleton -->
+          <form id="quiz-form" aria-describedby="quiz-instructions">
+            <p id="quiz-instructions" class="sr-only">Select the best answer for each question and submit to see results.</p>
+
+            <fieldset class="question" id="q1">
+              <legend>1. Where does gas exchange primarily occur?</legend>
+              <label><input type="radio" name="q1" value="a"> Trachea</label><br>
+              <label><input type="radio" name="q1" value="b"> Bronchi</label><br>
+              <label><input type="radio" name="q1" value="c"> Alveoli</label><br>
+              <label><input type="radio" name="q1" value="d"> Diaphragm</label>
+            </fieldset>
+
+            <fieldset class="question" id="q2">
+              <legend>2. Which vessel carries blood away from the heart?</legend>
+              <label><input type="radio" name="q2" value="a"> Vein</label><br>
+              <label><input type="radio" name="q2" value="b"> Artery</label><br>
+              <label><input type="radio" name="q2" value="c"> Capillary</label><br>
+              <label><input type="radio" name="q2" value="d"> Venule</label>
+            </fieldset>
+
+            <div class="quiz-actions">
+              <button type="button" id="quiz-submit">Submit</button>
+              <button type="reset">Reset</button>
+            </div>
+
+            <div id="quiz-result" role="status" aria-live="polite" class="quiz-result"></div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="site-footer" role="contentinfo">
+      <div class="container">
+        <p>&copy; <span id="year"></span> SCIENCEe — Educational resource</p>
+        <p>Made by <a href="https://nagurena.github.io">nagurena</a> (inspiration)</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- SCRIPTS -->
+  <script>
+    // small script: update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // quiz logic placeholder (enhance with JS framework)
+    document.getElementById('quiz-submit').addEventListener('click', function () {
+      const answers = { q1: 'c', q2: 'b' }; // correct answers
+      let score = 0;
+      const total = Object.keys(answers).length;
+
+      for (const q in answers) {
+        const selected = document.querySelector('input[name=\"'+q+'\"]:checked');
+        if (selected && selected.value === answers[q]) score++;
+      }
+
+      const resultEl = document.getElementById('quiz-result');
+      resultEl.textContent = `You got ${score} of ${total} correct.`;
+    });
+  </script>
+</body>
+</html>
